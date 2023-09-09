@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForgetMeNot - Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="check.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+<container>
+    <div id="header_div">
+        <button style="float:left;" class="btn btn-danger">Log Out</button>
+<img style="border-radius: 15px;width: 320px;margin-top: 10px;" src="logo.png">
+<br><br>
+<a href="games.html" id="gameslink">Games & Puzzles 🧩</a> <a id="homelink" href="index.html">Schedule 📅</a>
+    </div>
+    <br><br><br>
+<h1 style="color: rgb(15, 85, 24);font-weight: bold;font-size: 40px;">Time to check-in! 🎙️</h1>
+<br><br>
+<h2>Click the button to start.</h2>
+<hr>
+        <h4 style="color:red;">Please press "allow" as soon as popup comes.</h4>
+        
+        <div class="form-group">
+            <h3>Speak about your day!</h3>
+            <br>
+            <label>Your voice output: </label>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+            <br>
+            <button id="start" onclick="start();" class="btn btn-primary">Start</button>
+        </div>
+        <br>
+        <div id="msg">
+    </div>
+    </container>
+    </center>
+    </body>
+    <script src="check.js"></script>
+    </html>
+    

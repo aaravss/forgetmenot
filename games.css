@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("bggreen.jpg");
+}
+
+#header{
+  font-size: 50px;  
+
+}
+
+#header_div{
+    background-color: #a8bcac;
+    width: 100%;
+    height: 150px;
+}
+
+
+#homelink{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+a{
+    font-size:20px;
+    color: rgb(15, 85, 24);
+    background-color: white;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
